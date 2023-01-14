@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Tribute Page</title>
+    <style>
+        * {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Times, serif;
+  color: white;
+  background-color: black;
+}
+
+.container {
+  max-width: 90rem;
+  margin: 2rem auto;
+  padding: 0px 2rem;
+}
+
+.header {
+  padding: 2rem;
+  margin: 1rem 0px;
+  text-align: center;
+}
+
+header > .title {
+  margin-bottom: 1rem;
+}
+
+.tribute {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  max-width: 78rem;
+  margin: 0px auto;
+  background: white;
+  color: black;
+  align-items: center;
+  padding: 0px 0px 0px 1rem;
+}
+
+.tribute blockquote {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.tribute img {
+  max-width: 100%;
+}
+
+.bio {
+  margin: 2rem auto;
+  padding: 0px 0.5rem;
+  max-width: 40rem;
+}
+
+.bio > h2 {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  line-height: 1.2;
+  text-align: center;
+}
+.bio > p {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
+
+.bio > hr {
+  margin-top: 2rem;
+}
+
+.bio > img {
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+    .tribute {
+  display: grid;
+  grid-template-columns:1fr;
+}
+
+.tribute blockquote {
+  font-size: 1.5rem;
+}
+
+.bio > h2 {
+    text-align: center;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  line-height: 1.2;
+}
+}
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1 class="title">Maharishi Patanjali</h1>
+        <p class="description"> 2nd century BCE to 4th century CE </p>
+      </header>
+      <section class="tribute">
+        <blockquote>
+            “If you still think your life will become better with a new house, a new girlfriend, a new car, more money, or whatever else, it is not yet time for yoga.” If you saw all that and you realized that it does not fulfill your life in any way: “…and now, Yoga.”
+          <!-- "The idea is that unless you hold something really high, you cannot maintain your focus." -->
+        </blockquote>
+        <img src="pic4.png" alt="Maharishi-patanjali-image"/>
+      </section>
+      
+      <section class="bio">
+        <h2>Biography</h2>
+        <p>
+            Patanjali was not only a man of many talents who wrote texts on medicine, language, and grammar, he was one of the 18 classical Tamil siddhars (sages and intellectuals), and a realized being. But he is probably most widely known as the “father of modern yoga” – not because he originated yoga, but because he distilled the essence of yoga into the famous Yoga Sutras. He also delves into the first two sutras, disclosing the background of the cryptic Sanskrit words that form the verses.
+        </p>
+        <img src="pic5.jpg" alt="Maharishi-patanjali-image">
+
+        <p>The Yoga Sutras of Patañjali is a collection of Sanskrit sutras on the theory and practice of yoga – 195 sutras (according to Vyāsa and Krishnamacharya) and 196 sutras (according to others, including BKS Iyengar). The Yoga Sutras was compiled in the early centuries CE, by the sage Patanjali in India who synthesized and organized knowledge about yoga from much older traditions.
+
+            The Yoga Sutras is best known for its reference to ashtanga, eight elements of practice culminating in samadhi. The eight elements are yama (abstinences), niyama (observances), asana (yoga postures), pranayama (breath control), pratyahara (withdrawal of the senses), dharana (concentration of the mind), dhyana (meditation) and samadhi (absorption). The main aim of practice is kaivalya, discernment of purusha, the witness-consciousness, as distinct from prakriti, the cognitive apparatus, and disentanglement of purusha from prakriti's muddled defilements.</p>
+        <hr />
+      </section>
+</body>
+</html>
